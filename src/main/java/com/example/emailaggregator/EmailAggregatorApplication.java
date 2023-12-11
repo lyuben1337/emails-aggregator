@@ -1,13 +1,14 @@
 package com.example.emailaggregator;
 
-import org.springframework.boot.SpringApplication;
+import com.example.emailaggregator.gui.EmailAggregatorGui;
+import javafx.application.Application;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EmailAggregatorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EmailAggregatorApplication.class, args);
+        Application.launch(EmailAggregatorGui.class, args);
     }
 
 }

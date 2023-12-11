@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <MenuBar VBox.vgrow="NEVER">
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem mnemonicParsing="false" text="About Email Aggregator"/>
+        </Menu>
+    </MenuBar>
+    <SplitPane dividerPositions="0.2, 0.55" focusTraversable="true"
+               VBox.vgrow="ALWAYS">
+        <AnchorPane>
+        </AnchorPane>
+        <ScrollPane>
+            <AnchorPane id="Content" prefHeight="545.0" prefWidth="430.0">
+                <Label alignment="CENTER" font="$x1" layoutX="14.0" layoutY="14.0" style="&#10;"
+                       text="View" textAlignment="CENTER" textFill="$x2"/>
+            </AnchorPane>
+        </ScrollPane>
+        <AnchorPane>
+            <Label alignment="CENTER" font="$x1" layoutX="14.0" layoutY="14.0" style="&#10;" text="Details"
+                   textAlignment="CENTER" textFill="$x2"/>
+        </AnchorPane>
+    </SplitPane>
+</VBox>
