@@ -1,0 +1,158 @@
+.foldersPanel .button {
+    -fx-background-color: #1E1E1E;
+    -fx-graphic-text-gap: 10;
+    -fx-background-radius: 0em;
+    -fx-pref-width: 205;
+    -fx-text-fill: white;
+    -fx-alignment: BASELINE_LEFT;
+}
+.foldersPanel .button:hover {
+    -fx-background-color: rgba(78, 78, 78, 0.25);
+    -fx-background-radius: 0.5em;
+}
+.foldersPanel .button:focused {
+    -fx-background-color: #4e4e4e;
+    -fx-background-radius: 0.5em;
+}
+.button2 {
+    -fx-background-color: #1E1E1E;
+    -fx-graphic-text-gap: 10;
+    -fx-background-radius: 0.25em;
+}
+.button2:hover {
+    -fx-background-color: #4e4e4e;
+}
+.button2:pressed {
+    -fx-background-color: transparent;
+}
+
+.button3 {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 0 0 0 0;
+}
+
+.accountsVBox .button {
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 0 0;
+    -fx-text-fill: rgba(255, 255, 255, 0.5);
+}
+
+.accountsVBox .button:hover {
+    -fx-text-fill: rgba(255, 255, 255);
+}
+
+.accountsVBox .button:pressed {
+    -fx-text-fill: rgba(255, 255, 255, 0.5);
+}
+
+.anchor-pane {
+    -fx-background-color: #1E1E1E;
+}
+
+.anchor-pane:hover {
+    -fx-background-color: rgba(30, 30, 30, 0.5);
+}
+
+.anchor-pane:pressed {
+    -fx-background-color: transparent;
+}
+
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: #666666;
+}
+
+.scroll-pane .scroll-bar:vertical .track {
+    -fx-background-color: #333333;
+}
+
+.web-view .scroll-bar:vertical {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0;
+}
+
+.web-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #666666;
+}
+
+.web-view .scroll-bar:vertical .track {
+    -fx-background-color: #333333;
+}
+
+.web-view .scroll-bar:horizontal {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0;
+}
+
+.web-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #666666;
+}
+
+.web-view .scroll-bar:horizontal .track {
+    -fx-background-color: #333333;
+}
+
+.add-account .button {
+    -fx-background-color: #4e4e4e;
+    -fx-text-fill: #FFFFFF;
+    -fx-graphic-text-gap: 10;
+    -fx-background-radius: 0.25em;
+}
+
+.add-account .button:hover {
+    -fx-background-color: #666666;
+    -fx-text-fill: #FFFFFF;
+    -fx-graphic-text-gap: 10;
+    -fx-background-radius: 0.25em;
+}
+
+.add-account .button:pressed {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+    -fx-graphic-text-gap: 10;
+    -fx-background-radius: 0.25em;
+}
+
+.add-account .text-field {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #4e4e4e;
+    -fx-prompt-text-fill: rgba(255, 255, 255, 0.75);
+    -fx-border-color: transparent;
+}
+
+.add-account .text-field:hover {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #666666;
+    -fx-border-color: transparent;
+}
+
+.add-account .combo-box {
+    -fx-background-color: #4e4e4e;
+    -fx-text-fill: rgba(255, 255, 255, 0.75);
+}
+
+.add-account .arrow-button {
+    -fx-background-color: #4e4e4e;
+}
+
+.add-account .combo-box .list-view {
+    -fx-background-color: #4e4e4e;
+}
+
+.add-account .combo-box .list-view:hover {
+    -fx-background-color: #666666;
+}

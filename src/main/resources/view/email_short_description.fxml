@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="100.0" prefWidth="315.0" styleClass="anchor-pane" stylesheets="@../styling/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.emailaggregator.gui.controller.EmailShortDescriptionController">
+    <children>
+        <VBox prefHeight="100.0" prefWidth="315.0" spacing="5.0">
+            <children>
+                <BorderPane prefHeight="25.0" prefWidth="340.0">
+                    <left>
+                        <Label fx:id="sender" maxHeight="20.0" maxWidth="260.0" prefHeight="20.0" prefWidth="270.0" styleClass="emailShortDescription" stylesheets="@../styling/style.css" text="John Doe" textFill="WHITE" BorderPane.alignment="CENTER">
+                            <font>
+                                <Font name="System Bold" size="16.0" />
+                            </font>
+                        </Label>
+                    </left>
+                    <right>
+                        <Label fx:id="date" maxHeight="14.0" maxWidth="60.0" text="13.12.2023" textFill="#949494" BorderPane.alignment="CENTER">
+                            <font>
+                                <Font name="System Bold" size="11.0" />
+                            </font>
+                        </Label>
+                    </right>
+                </BorderPane>
+                <Label fx:id="subject" maxHeight="17.0" maxWidth="330.0" text="(No subject)" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="13.0" />
+                    </font>
+                </Label>
+                <Label fx:id="content" maxHeight="43.0" maxWidth="330.0" prefHeight="43.0" prefWidth="330.0" text="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum Lorem Ipsum  " textAlignment="JUSTIFY" textFill="#949494" wrapText="true">
+                    <font>
+                        <Font size="11.0" />
+                    </font>
+                </Label>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <padding>
+                <Insets left="5.0" right="5.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>
